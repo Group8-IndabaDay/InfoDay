@@ -7,7 +7,33 @@ layout: default
     <article class="post">
       <a href="{{ site.baseurl }}{{ post.url }}">
         <h1>{{ post.title }}</h1>
-
+        <div> 
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+            </table>
+        </div>
         <div>
           <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
         </div>
@@ -16,7 +42,7 @@ layout: default
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
     </article>
   {% endfor %}
 
